@@ -13,7 +13,8 @@
   "dependencies": {
     "cool-ascii-faces": "1.3.4",
     "ejs": "^2.5.7",
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongodb": "^3.0.1"
   },
   "devDependencies": {
     "request": "^2.81.0",
