@@ -7,18 +7,39 @@
   },
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node server/index.js",
+    "test": "node server/test.js",
+    "client": "webpack-dev-server --mode development --devtool inline-source-map --hot",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"webpack\" \"npm run start\""
   },
   "dependencies": {
+    "browser-sync": "^2.24.7",
+    "concurrently": "^4.0.1",
     "cool-ascii-faces": "1.3.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
-    "mongodb": "^3.0.1"
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "mongodb": "^3.0.1",
+    "next": "^6.1.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-hot-loader": "^4.3.12",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack-stream": "^5.1.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "nodemon": "^1.18.6",
     "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "style-loader": "^0.23.0",
+    "tape": "^4.7.0",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.8"
   },
   "repository": {
     "type": "git",
