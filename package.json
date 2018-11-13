@@ -1,6 +1,8 @@
 {
-  "name": "hasangenc",
-  "version": "0.3.0",
+  "name": "express-react",
+  "author": "Hasan Genc",
+  "author_mail": "hasangenc.istanbul@gmail.com",
+  "version": "0.0.1",
   "description": "A Node.js app using Express 4 with React UI",
   "engines": {
     "node": "8.9.1"
@@ -16,12 +18,10 @@
   "dependencies": {
     "browser-sync": "^2.24.7",
     "concurrently": "^4.0.1",
-    "cool-ascii-faces": "1.3.4",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "gulp": "^3.9.1",
     "gulp-nodemon": "^2.2.1",
-    "mongodb": "^3.0.1",
     "next": "^6.1.2",
     "preact": "^8.3.1",
     "preact-compat": "^3.18.4",
@@ -45,12 +45,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+    "url": "https://github.com/hasangenc0/express-react.git"
   },
   "keywords": [
     "node",
-    "heroku",
-    "express"
+    "express",
+    "react js",
+    "full stack"
   ],
   "license": "MIT"
 }
