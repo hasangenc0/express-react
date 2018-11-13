@@ -41,7 +41,10 @@
     "tape": "^4.7.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.1.8",
+    "cryptiles": ">=4.1.2",
+    "sshpk": ">=1.13.2",
+    "hoek": ">=4.2.1"
   },
   "repository": {
     "type": "git",
