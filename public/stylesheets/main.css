@@ -1,31 +1,45 @@
-.jumbotron {
-	background: #8E0E00;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #8E0E00, #1F1C18);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right,#8E0E00, #1F1C18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  color: white;
-  padding-bottom: 80px; }
-  .jumbotron .btn-primary {
-    background: black;
-    border-color: black; }
-    .jumbotron .btn-primary:hover {
-      background: #970000; }
-  .jumbotron p {
-    color: #d9ccee;
-    max-width: 75%;
-    margin: 1em auto 2em; }
-  .navbar + .jumbotron {
-    margin-top: -20px; }
-  .jumbotron .lang-logo {
-    display: block;
-    /*background: white;*/
-    /*border-radius: 50%;*/
-    overflow: hidden;
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border: 2px solid #white; }
-    .jumbotron .lang-logo img {
-      max-width: 100%;
-  	  margin-left:12px;}
+html, body {
+  height: 100%;
+  background-color: #142b57;
+}
 
+span {
+  color: #7dd9f5;
+}
+
+.glyphicon{
+  margin-right: 10px;
+}
+
+.navbar-inverse {
+  background-color:  #132659;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: #fff;
+  background-color: #000485;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  padding: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 46px;
+  height: 46px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

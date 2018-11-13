@@ -2,3 +2,25 @@
   margin: 1rem;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.App a {
+  color: white;
+}
+
+.App a h6 {
+  z-index: 9999;
+}
+
+.App a:hover {
+  text-decoration: none;
+}
+.App div {
+  width: 300px;
+  height: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fa-spin {
+  font-size: 36px;
+}
