@@ -3,7 +3,7 @@
   "author": "Hasan Genc",
   "description": "All the Needs of a Full Stack Developer",
   "repository": "https://github.com/hasangenc0/express-react.git",
-  "logo": "",
+  "logo": "logo.png",
   "keywords": ["node", "express", "react js", "full stack"],
-  "image": ""
+  "image": "logo.png"
 }
