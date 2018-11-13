@@ -1,7 +1,7 @@
 {
-  "name": "node-js-getting-started",
+  "name": "hasangenc",
   "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
+  "description": "A Node.js app using Express 4 with React UI",
   "engines": {
     "node": "8.9.1"
   },
@@ -23,6 +23,8 @@
     "gulp-nodemon": "^2.2.1",
     "mongodb": "^3.0.1",
     "next": "^6.1.2",
+    "preact": "^8.3.1",
+    "preact-compat": "^3.18.4",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-hot-loader": "^4.3.12",

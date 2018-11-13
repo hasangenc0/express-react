@@ -1,8 +1,9 @@
 {
-  "name": "Start on Heroku: Node.js",
-  "description": "A barebones Node.js app using Express 4",
-  "repository": "https://github.com/heroku/node-js-getting-started",
-  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
+  "name": "express-react",
+  "author": "Hasan Genc",
+  "description": "All the Needs of a Full Stack Developer",
+  "repository": "https://github.com/hasangenc0/express-react.git",
+  "logo": "",
+  "keywords": ["node", "express", "react js", "full stack"],
+  "image": ""
 }
