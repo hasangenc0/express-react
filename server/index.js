@@ -14,39 +14,6 @@ app.get('/', function(request, response) {
   response.render('pages/index')
 });
 
-app.get('/cool', function(request, response) {
-  response.send(cool());
-});
-app.get('/times', function(request, response) {
-    var result = ''
-    var times = process.env.TIMES || 5
-    for (i=0; i < times; i++)
-      result += i + ' ';
-  response.send(result);
-});
-
-/*app.use("/hasan",
-  proxy({
-      target: "route.address",
-      pathRewrite: (path, req) => {
-          return path.split('/').slice(2).join('/'); // Could use replace, but take care of the leading '/'
-      }
-  })
-);
-*/
-app.get('/words',(req,res) => {
-    words = req.query;
-    if(words.hasOwnProperty('word') || words.hasOwnProperty('translate')) {
-        fs.appendFile('../words.csv', words.translate + ';' + words.word + '\r\n', function(err) {
-            if(err) {
-                return console.log(err);
-            }
-        console.log('The file was saved!');
-        });
-    }
-    res.render("pages/words");
-});
-
 app.listen(app.get('port'), function() {
   console.log('Hasan\'s Node app is running on port', app.get('port'));
 });
