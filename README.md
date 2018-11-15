@@ -4,10 +4,10 @@
 All the Needs of a Full Stack Developer
 
 ## Usage
-'''
+```
 npm install
-'''
+```
 
-'''
+```
 gulp
-'''
+```
