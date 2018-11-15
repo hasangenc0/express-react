@@ -4,7 +4,7 @@
 All the Needs of a Full Stack Developer
 
 ## Usage
-**Clone the repository.**
+**Clone the repository and download npm packages**
 ```
 npm install
 ```
